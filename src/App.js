@@ -44,7 +44,7 @@ function App() {
   }
   return (
     <BrowserRouter>
-    <Navbar title="TextUtils" homeText="HOME" aboutText="ABOUT US" mode={mode} toggleMode={toggleMode}/>
+    <Navbar title="TextWizard" homeText="HOME" aboutText="ABOUT US" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
     <Routes>
       <Route exact path='/' element={<Home showAlert={showAlert} mode={mode}/>}/>
